@@ -1,0 +1,18 @@
+.header {
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 90px 5px 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.navbar a {
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+}

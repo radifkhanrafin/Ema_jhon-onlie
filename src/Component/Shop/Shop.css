@@ -1,0 +1,15 @@
+.shop-container{
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-columns:repeat(4,1fr); */
+    /* grid-template-columns:4fr 1fr; */
+    /* display: flex; */
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.cart-container{
+    margin-top: 35px;
+}
