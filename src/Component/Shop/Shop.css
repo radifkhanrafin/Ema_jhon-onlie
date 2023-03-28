@@ -11,5 +11,5 @@
     grid-template-columns: repeat(3 , 1fr);
 }
 .cart-container{
-    margin-top: 35px;
+    /* margin-top: 35px; */
 }
