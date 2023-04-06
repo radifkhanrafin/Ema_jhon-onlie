@@ -10,3 +10,10 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
 }
+.review-btn{
+    text-decoration: none;
+    gap: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
