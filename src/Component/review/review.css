@@ -1,0 +1,49 @@
+* {
+    /* border:  20px solid red; */
+}
+
+.review-cart {
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 570px;
+    border: 1px solid #95A0A7;
+    margin: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 12px auto;
+}
+
+.review-cart img {
+    width: 91px;
+    height: 91px;
+    border-radius: 15px;
+    /* border:  20px solid red; */
+}
+
+.price {
+    color: orange;
+}
+
+.review-disc {
+    /* width: 450px; */
+    padding-right: 20px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 5px solid red; */
+}
+
+.dlt-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb575790;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}

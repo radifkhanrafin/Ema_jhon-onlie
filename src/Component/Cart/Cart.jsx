@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleRight} from '@fortawesome/free-solid-svg-icons'
+import { faDeleteLeft} from '@fortawesome/free-solid-svg-icons'
 import './Cart.css'
 const Cart = ({cart}) => {
     // console.log(cart)
@@ -27,10 +28,10 @@ const Cart = ({cart}) => {
             <p>Tax : ${tax.toFixed(2)}</p>
             <h5>Grand Total : ${ (total + totalShipping + tax).toFixed(2)}</h5>
             <div>
-            <button>Clear Cart</button>
+            <button className='btn-clear'>Clear Cart <FontAwesomeIcon icon={faDeleteLeft} /> </button>
             </div>
            <div>
-           <button>Review Order <FontAwesomeIcon icon={faArrowCircleRight} /> </button>
+           <button className='btn-review'>Review Order <FontAwesomeIcon icon={faArrowCircleRight} /> </button>
            </div>
 
         </div>

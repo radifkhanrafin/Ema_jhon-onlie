@@ -14,4 +14,11 @@ button{
     height: 50px;
     margin-top: 20px;
     font-size: 20px;
+    border: none;
+}
+.btn-clear{
+    background-color: #FF3030;
+}
+.btn-review{
+    background-color: #FF9900;
 }

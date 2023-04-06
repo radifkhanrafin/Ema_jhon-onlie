@@ -31,21 +31,6 @@ const Shop = () => {
         
     }, [products]);
 
-    // useEffect(() => {
-    //     const storedCart=getShoppingCart()
-    //     // console.log(storedCart)
-    //     for (const productId in storedCart) {
-    //         const addedProduct=products.find(product=>product.id === productId)
-
-    //         const productQuantity=storedCart[productId]
-    //         // addedProduct.quantity=productQuantity
-
-    //         console.log( addedProduct)
-    //     }
-    //     // storedCart.find()
-    // }, [products]);
-
-
     // console.log(products)
     const addToCard = (product) => {
         // const newCart = [...cart, product]
