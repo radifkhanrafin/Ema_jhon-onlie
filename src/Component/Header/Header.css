@@ -9,7 +9,12 @@
     padding: 5px 90px 5px 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.nav{
+   color: white;
+   display: flex ;
+   align-items: center;
+   gap: 35px;
+}
 
 
 .navbar a {

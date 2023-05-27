@@ -30,7 +30,7 @@ const Cart = ({ cart, clearCart , children }) => {
 
 
 
-            <div>
+            <div className='my-5'>
                 <button onClick={clearCart} className='btn-clear'>
                     Clear Cart <FontAwesomeIcon icon={faRemove} />
                 </button>

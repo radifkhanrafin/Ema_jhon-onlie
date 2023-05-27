@@ -18,7 +18,7 @@ const Shop = () => {
     }
 
     useEffect(() => {
-        fetch('products.json')
+        fetch('http://localhost:5000/allProducts')
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [])
@@ -65,8 +65,10 @@ const Shop = () => {
 
     // console.log(cart)
     return (
-        <div className='shop-container'>
-            <div className="product-container">
+        <div className='flex flex-col-reverse md:flex-row'>
+            <div
+                className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+            >
                 {
                     products.map(product => <Products
                         key={product.id}
