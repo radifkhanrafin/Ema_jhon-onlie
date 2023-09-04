@@ -9,7 +9,7 @@ const Login = () => {
     console.log(location)
     const navigate = useNavigate()
     // console.log(signIn)
-    const from = location.state?.from?.pathname
+    const from = location.state?.from?.pathname || '/'
     console.log(from)
     const loginEmailPass = (event) => {
         event.preventDefault()

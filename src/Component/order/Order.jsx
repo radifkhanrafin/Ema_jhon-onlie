@@ -12,32 +12,32 @@ const Order = () => {
 
     const [cart, setCart] = useState(savedCart)
 
-    const deleteCartItem = (id) => {
-        const reaminingCart = cart.filter(product => product.id !== id);
+    const deleteCartItem = (_id) => {
+        const reaminingCart = cart.filter(product => product._id !== _id);
         setCart(reaminingCart)
-        removeFromDb(id)
-        console.log(id)
+        removeFromDb(_id)
+        console.log(_id)
     }
 
     const clearCart = () => {
         setCart([])
         deleteShoppingCart()
     }
-    // console.log(cart)
+    console.log(cart)
     return (
         <div className='shop-container'>
-
+<h2>order</h2>
             <div className="">
                 {
                     cart.map(product => <Review
-                        key={product.id}
+                        key={product._id}
                         product={product}
                         deleteCartItem={deleteCartItem}
                     ></Review>)
                 }
             </div>
 
-            <div className="cart-container">
+            {/* <div className="cart-container">
                 <Cart
                     clearCart={clearCart}
                     cart={cart}>
@@ -47,7 +47,7 @@ const Order = () => {
                     </Link>
 
                 </Cart>
-            </div>
+            </div> */}
 
         </div>
     );

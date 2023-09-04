@@ -28,7 +28,6 @@ const SignUp = () => {
         gmailPassLogin(email, password, confrim)
             .then(result => {
                 const logedUser = result.user;
-                set
                 console.log(logedUser)
             })
             .catch(err => {
